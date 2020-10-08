@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript. 7 lesson</title>
+</head>
+<body>
+ 
+<!--Task2-->
+<!--<p id="text">I learn JavaScript events</p>
+<div>
+	<button onclick="changeCSS()">Change Style</button>
+</div>
+<script>
+	function changeCSS(){
+		document.getElementById("text").style.color = "orange";
+		document.getElementById("text").style.fontSize = "20px";
+		document.getElementById("text").style.fontFamily = "Comic Sans MS";
+	}
+</script>
+-->
+<!--Task3-->
+<input type="button" onclick="document.body.style.background = 'blue';" value="Click to make the page blue"/>
+	<input type="button" ondblclick="document.body.style.background = 'pink';" value="Dbl-Click to make the page pink"/>
+	<input type="button" onmousedown="document.body.style.background = 'brown';" onmouseup="document.body.style.background = 'white';" value="Click and hold to make the page brown"/>
+	<a href="" ondrag="showAlert();" onmouseover="document.body.style.background = 'yellow';" onmouseout="document.body.style.background = 'white';">Hover to make page yellow</a>
+
+	<select id="sb">
+		<option value="1">Peter</option>
+		<option value="3">John</option>
+		<option value="6">Ivan</option>
+		<option value="69">Julia</option>
+	</select>	
+	
+<!--Task4-->
+
+<!-- function del() {
+			let select = document.getElementById("sb");
+			let value = select.selectedIndex;
+			if (value >= 0) {
+				select.removeChild(select[value]);
+			}
+		}
+		
+	<input type="button" onclick="del()" value="Del element"/>
+-->
+<!--Task 5
+
+<input id="lvb" type="button" onmouseover="mouseOver();" onmouseout="mouseOut()" value="Live button"/>	
+-->	
+
+
+<script src="lesson7.js"></script>
+</body>
+
+ 
