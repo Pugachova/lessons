@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> 
+</head>
+<body class="font-sans">
+     <div class="flex flex-col justify-center items-center">
+               <div class="mt-4">
+                   <h1 class="text-3xl font-bold font-serif">Add books to the list</h1>
+               </div>
+              <div class="space-y-4">
+                  <form class="newform">
+                    <input type="text" name="bookname" class="px-32 py-1 border border-gray-300 " placeholder="Enter books name"><br>
+                  
+                    <div>
+                    <button class="py-1 px-4 bg-blue-400 font-sans mt-1">SEND</button>
+                    </div>
+                
+          
+                  </form>
+                    
+                 
+              </div>
+         <table class="listtable">
+             <thead>
+                 <tr>
+                     <th class="px-4 py-2">Title</th>
+                      <th class="px-4 py-2">Action</th> 
+                     
+                 </tr>
+             </thead>
+             <tbody class="tablerows">
+             
+             
+             
+             </tbody>
+         </table>
+     </div>
+     <script src="todolist.js"></script>
+</body>
+</html>
+
+ 
